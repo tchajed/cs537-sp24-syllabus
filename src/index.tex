@@ -1,31 +1,142 @@
 \maketitle
 
-\section*{Course Description}
+\section*{Course info}
 
-\section*{Learning objectives}
+This course will introduce you to the broad field of operating systems.
+Operating systems include a wide variety of functionality. This is an
+introductory course and topics we will cover include basic operating system
+structure, process and thread synchronization and concurrency, file systems and
+storage servers, memory management techniques, process scheduling and resource
+management, and virtualization.
 
-At the end of this course, you will:
+\subsection*{Learning objectives}
+
+At the end of this course, you will be able to:
 
 \begin{itemize}[noitemsep]
-  \item Be able to articulate the guarantees of formal verification.
-  \item Be able to translate informal descriptions of protocols into mathematical
-  models.
-  \item Be able to translate informal requirements into formal specifications.
+  \item Explain the fundamental types of operating system abstractions including
+        processes, synchronization, virtual memory and persistence.
+  \item Design and implement system libraries and kernel calls, which are
+        mechanisms provided to users to access and develop new operating-system
+        functionality.
+  \item Assess system performance and explain the impact of applying various
+        algorithms and data structures to the complex operation of an operating system.
 \end{itemize}
+
+Course website: \url{https://pages.cs.wisc.edu/~oliphant/cs537-sp24} \\
+Piazza: \url{https://piazza.com/class/lrl9gion4s33ro}
+
+\subsection*{Instructors}
+This class has two instructors: Louis Oliphant and Tej Chajed. We are teaching
+the class jointly, even though you are technically assigned a section with one
+of us as the instructor.
+
+\subsection*{Lecture}
+\begin{tabular}{llll}
+  Section 2: & Science Hall 180 & Tuesday/Thursday & 9:30am--10:45am \\
+  Section 1: & Social Sciences 5306 & Tuesday/Thursday & 1:00am--2:15pm
+\end{tabular}
+
+We suggest you attend the lecture you are assigned since the lecture rooms
+cannot accomodate the students from both sections. Other than that, the sections
+are the same (with shared content, assignments, and exams).
+
+\subsection*{Instructor office hours}
+\begin{itemize}
+  \item Louis Oliphant: MWF 9--10am in CS 7358, or by appointment
+  \item Tej Chajed: TBD in CS 7361, or by appointment
+\end{itemize}
+
+You can reach us by email at \texttt{ltoliphant@wisc.edu} and
+\texttt{chajed@wisc.edu} but please use Piazza when possible.
+
+\subsection*{TAs}
+\begin{tabular}{ll}
+Abigail Matthews & \texttt{amatthews5@wisc.edu} \\
+John Shawger & \texttt{shawgerj@cs.wisc.edu} \\
+Yurun Yuan & \texttt{yurun.yuan@wisc.edu} \\
+Danial Saleem & \texttt{saleem5@wisc.edu} \\
+Omid Rostamabadi & \texttt{omidrostamabadi@cs.wisc.edu} \\
+Sunaina Krishnamoorthy & \texttt{skrishnamoo5@wisc.edu} \\
+Fariha Islam & \texttt{fariha@cs.wisc.edu} \\
+Aditya Das Sarma & \texttt{adassarma@cs.wisc.edu} \\
+\end{tabular}
+
+The TA and Peer Mentor office hours will be posted on Piazza and updated
+regularly. TA office hours will typically be held in the CSL labs and basement
+109.
+
+\subsection*{Discussion sessions}
+Discussion sections will be held on Wednesdays and will be led by the TAs. Please check your schedule for which
+discussion section you should attend. The discussion section will cover topics that are related to the programming
+projects and introduce other useful Unix/Linux tools.
+
+\subsection*{Textbooks}
+
+We will be using the \emph{free} OS textbook
+\href{https://pages.cs.wisc.edu/~remzi/OSTEP}{\emph{Operating Systems: Three Easy
+Pieces}}. You can also buy a printed copy if you like from the website.
+
+For the programming projects, there are two textbooks that are recommended but not required
+\begin{itemize}
+\item \href{https://a.co/d/6cQipwF}{\emph{The C Programming Language} (2nd
+ed.)}: A book written by the people who invented C
+\item \href{https://a.co/d/9mCa0Gb}{\emph{Advanced Programming in the UNIX
+Environment} (2nd ed.)}: This is a complete guide to programming in the Unix
+environment and is useful if you want to become a Unix expert.
+        \end{itemize}
 
 \section*{Assignments \& Grading}
 
-\section*{Late policy}
+\subsection*{Programming assignments}
 
-For the programming exercises, you get up to 3 ``late days'' to use throughout
-the semester. You don't need to tell me when you use these, just submit late. If
-you have extenuating circumstances and need more time, let me know as soon as
-possible.
+There will be around 7 programming assignments (projects) for this course whose
+tentative schedule is given in the course website.
 
-Reading assignments can't be turned in after the deadline since we'll be
-discussing the paper on that day. However, if you miss one, it'll be dropped and
-you can still get full credit (I still encourage you to read the paper later
-even if you don't submit a review).
+There are 4 slip days, 2 for the first 4 individual projects and 2 for the final
+3 group projects. Students submit in programming projects on CSL machines. More
+information about the same will be provided in the project specifications too.
+Once you have used all your slip days, you will receive 100\% of points if turned
+in on or before the deadline. If turned in late, 10 percentage points will be
+deducted per day. You may only turn in assignments up to 3 days late.
+
+\subsection*{Grading}
+The course will have six main graded components: three exams, a set of
+programming projects that will be spread out through the semester, lecture
+quizzes, and a code review.
+
+\begin{itemize}
+  \item Programming projects: 50\%
+  \item Midterm 1: 15\%
+  \item Midterm 2: 10\%
+  \item Midterm 3: 15\%
+  \item Quizzes: 5\%
+  \item Code review: 5\%
+\end{itemize}
+
+Assignments will be graded numerically, and those scores are combined at the end of the semester to form a letter
+grade.
+\begin{itemize}
+  \item A: to receive an A, a student must consistently produce notable assignments in all aspects of the course.
+  \item AB: to receive an AB, a student must consistently do acceptable work in all aspects of the course, and occasionally produce notable
+        work.
+  \item B: to receive a B, a student must consistently do acceptable work.
+  \item BC: to receive a BC, a student must usually do acceptable work
+  \item C: to receive a C, a student must usually make an effort at the assignment, and (at least) occasionally do acceptable work
+\end{itemize}
+
+Here is a numerical scale for grades. Based on difficulty of projects and exams, the actual cutoffs used may be lower
+than these.
+
+\begin{itemize}
+  \item A: 93--100
+  \item AB: 87--92.9
+  \item B: 82--86.9
+  \item BC: 78--81.9
+  \item C: 70--77.9
+  \item D: 60--69.9
+  \item F: 0--59.9
+\end{itemize}
 
 \section*{Official university policies}
 
